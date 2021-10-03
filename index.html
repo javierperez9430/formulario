@@ -18,7 +18,6 @@
                         action="https://formsubmit.co/jpeduardo30@gmail.com"
                         method="POST"
                       >
-
                             <div class="form-group">
                                 <input type="text" name="name" class="form-control" placeholder="Name" autofocus>
                             </div>
@@ -34,6 +33,21 @@
                             <div class="form-group">
                                 <input type="text" name="message" placeholder="Message" class="form-control">
                             </div>
+
+                            <div class="col-md-12">
+								<div class="form-group">
+									<select class="custom-select d-block form-control" id="guest" name ="evento" required data-error="Por favor selecciona el servicio que deseas">
+									  <option disabled selected>Seleciona el servicio*</option>
+									  <option value="1">Celebración de cumpleaños</option>
+									  <option value="2">Aniversarios</option>
+									  <option value="3">Fiestas infantiles</option>
+									  <option value="4">Declaraciones o propuestas</option>
+									  <option value="5">Despedidas</option>
+									  <option value="6">Cena con amigos</option>
+									</select>
+									<div class="help-block with-errors"></div>
+								</div> 
+							</div>
 
                             <button class="btn btn-primary btn-block">
                                 Send
